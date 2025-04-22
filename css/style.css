@@ -1,3 +1,130 @@
+@charset "UTF-8";
 body {
   background-color: #1D1D1D;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 1160px;
+  background-color: #232526;
+  padding: 20px 60px;
+}
+.header .rightMenu, .header .leftMenu {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.header .rightMenu a, .header .leftMenu a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  text-decoration: none;
+  color: #f4f4f4;
+}
+.header .rightMenu .menuBarBtn button, .header .leftMenu .menuBarBtn button {
+  color: #f4f4f4;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+}
+.header .rightMenu .menuBarBtn i, .header .leftMenu .menuBarBtn i {
+  font-size: 16px;
+  background-image: linear-gradient(270.03deg, #66FFE5 0.05%, #99A9FF 100%);
+  /* обрезает фон по тексту */
+  -webkit-background-clip: text;
+          background-clip: text;
+  /* меняет цвет текста заголовка на прозрачный*/
+  -webkit-text-fill-color: transparent;
+}
+.header .logo {
+  display: flex;
+  gap: 15px;
+}
+.header .logo i {
+  font-size: 30px;
+  background-image: linear-gradient(270.03deg, #66FFE5 0.05%, #99A9FF 100%);
+  /* обрезает фон по тексту */
+  -webkit-background-clip: text;
+          background-clip: text;
+  /* меняет цвет текста заголовка на прозрачный*/
+  -webkit-text-fill-color: transparent;
+}
+.header .logo p {
+  font-family: "Courier New", Courier, monospace;
+  color: #fff;
+  font-size: 30px;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 30px auto 0;
+}
+.container .firstSection .mainText {
+  width: 1000px;
+  height: 288px;
+  margin: 175px auto 0;
+}
+.container .firstSection .mainText p {
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 90px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #f4f4f4;
+  text-align: center;
+}
+.container .firstSection .mainText p span {
+  background-image: linear-gradient(270.03deg, #66FFE5 0.05%, #99A9FF 100%);
+  /* обрезает фон по тексту */
+  -webkit-background-clip: text;
+          background-clip: text;
+  /* меняет цвет текста заголовка на прозрачный*/
+  -webkit-text-fill-color: transparent;
+}
+.container .firstSection .scrollArrow {
+  display: flex;
+  justify-content: center;
+  margin: 165px 0 230px;
+}
+.container .secondSection .imagesPart {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 140px;
+}
+.container .secondSection .textPart {
+  position: relative;
+  z-index: 2;
+  width: 550px;
+  height: 380px;
+  left: 140px;
+  bottom: 200px;
+}
+.container .secondSection .textPart h2 {
+  color: #f4f4f4;
+  font-weight: 400;
+  font-size: 58px;
+  line-height: 78px;
+  letter-spacing: 0%;
+}
+.container .secondSection .textPart p {
+  color: #B8B8B8;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0%;
+  margin: 60px 0;
+}
+.container .secondSection .textPart a {
+  color: #99A9FF;
+  margin-right: 20px;
+  text-decoration: none;
+}
+.container .secondSection .textPart i {
+  font-size: 20px;
+  background-image: linear-gradient(270.03deg, #66FFE5 0.05%, #99A9FF 100%);
+  /* обрезает фон по тексту */
+  -webkit-background-clip: text;
+          background-clip: text;
+  /* меняет цвет текста заголовка на прозрачный*/
+  -webkit-text-fill-color: transparent;
 }
