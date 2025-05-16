@@ -128,3 +128,125 @@ body {
   /* меняет цвет текста заголовка на прозрачный*/
   -webkit-text-fill-color: transparent;
 }
+.container .thirdSection .sectionInfoPart {
+  display: flex;
+  gap: 54px;
+  align-items: center;
+  justify-content: center;
+}
+.container .thirdSection .sectionInfoPart h2 {
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 70px;
+  letter-spacing: 0%;
+  color: #f4f4f4;
+  width: 680px;
+}
+.container .thirdSection .sectionInfoPart p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #B8B8B8;
+  letter-spacing: 0%;
+  width: 442px;
+}
+.container .thirdSection .mainPart {
+  margin-top: 90px;
+  display: flex;
+  gap: 83px;
+  align-items: center;
+  justify-content: center;
+}
+.container .thirdSection .mainPart .rightInformationSide {
+  width: 511px;
+}
+.container .thirdSection .mainPart .rightInformationSide .nameP {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 30%;
+  color: rgba(184, 184, 184, 0.5529411765);
+}
+.container .thirdSection .mainPart .rightInformationSide h4 {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  color: #f4f4f4;
+  margin: 6px 0 20px;
+  width: 511px;
+}
+.container .thirdSection .mainPart .rightInformationSide p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #B8B8B8;
+  letter-spacing: 0%;
+}
+.container .thirdSection .mainPart .viewButtonRight {
+  margin-top: 45px;
+}
+.container .thirdSection .mainPart .viewButtonRight a {
+  color: #99A9FF;
+  margin-right: 8px;
+  text-decoration: none;
+}
+.container .thirdSection .mainPart .viewButtonRight i {
+  font-size: 20px;
+  background-image: linear-gradient(270.03deg, #66FFE5 0.05%, #99A9FF 100%);
+  /* обрезает фон по тексту */
+  -webkit-background-clip: text;
+          background-clip: text;
+  /* меняет цвет текста заголовка на прозрачный*/
+  -webkit-text-fill-color: transparent;
+}
+.container .FourthSection {
+  display: flex;
+  max-width: 1160px;
+  margin: 60px auto 0;
+  align-items: center;
+  gap: 73px;
+}
+.container .FourthSection .leftSide {
+  width: 522px;
+}
+.container .FourthSection .leftSide .nameP {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 30%;
+  color: rgba(184, 184, 184, 0.5529411765);
+}
+.container .FourthSection .leftSide h4 {
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 50px;
+  letter-spacing: 0%;
+  color: #f4f4f4;
+  margin: 6px 0 20px;
+  width: 511px;
+}
+.container .FourthSection .leftSide p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #B8B8B8;
+  letter-spacing: 0%;
+}
+.container .FourthSection .leftSide .viewButtonRight {
+  margin-top: 45px;
+}
+.container .FourthSection .leftSide .viewButtonRight a {
+  margin-right: 8px;
+  text-decoration: none;
+  background-image: linear-gradient(270.03deg, #66FFE5 0.05%, #99A9FF 100%);
+  /* обрезает фон по тексту */
+  -webkit-background-clip: text;
+          background-clip: text;
+  /* меняет цвет текста заголовка на прозрачный*/
+  -webkit-text-fill-color: transparent;
+}
+.container .FourthSection .leftSide .viewButtonRight i {
+  font-size: 20px;
+  color: #99A9FF;
+}

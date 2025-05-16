@@ -3,6 +3,7 @@ $backgroundColor: #1D1D1D;
 $secondaryBackground: #232526;
 $primaryTitleColor: #f4f4f4;
 $secondaryTitleColor: #B8B8B8;
+$secondaryTitleColorShadow: #b8b8b88d;
 $logoColor: #fff;
 $selectColor: #99A9FF;
 $secondSelectColor: #5CE4CF;
@@ -147,4 +148,135 @@ body{
         }
     }
 
+    .thirdSection {
+        .sectionInfoPart {
+            display: flex;
+            gap: 54px;
+            align-items: center;
+            justify-content: center;
+            
+            h2{
+                font-weight: 400;
+                font-size: 54px;
+                line-height: 70px;
+                letter-spacing: 0%;
+                color: $primaryTitleColor;
+                width: 680px;
+            }
+
+            p{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: $secondaryTitleColor;
+                letter-spacing: 0%;
+                width: 442px;
+            }
+        }
+
+        .mainPart {
+            margin-top: 90px;
+            display: flex;
+            gap: 83px;
+            align-items: center;
+            justify-content: center;   
+
+            .rightInformationSide {
+                width: 511px;
+            
+                .nameP {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 18px;
+                    letter-spacing: 30%;
+                    color: $secondaryTitleColorShadow;
+                }
+
+                h4 {
+                    font-weight: 400;
+                    font-size: 38px;
+                    line-height: 50px;
+                    letter-spacing: 0%;
+                    color: $primaryTitleColor;
+                    margin: 6px 0 20px;                    
+                    width: 511px;
+                }
+
+                p {
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 24px;
+                    color: $secondaryTitleColor;
+                    letter-spacing: 0%;
+                }
+            }
+
+            .viewButtonRight {
+                margin-top: 45px;
+                a {
+                    color: $selectColor;
+                    margin-right: 8px;
+                    text-decoration:none ;
+                }
+                
+                i {
+                    font-size: 20px;
+                    @include gradientEffect();
+                }
+            }
+        }
+
+    }
+
+    .FourthSection{
+        display: flex;
+        max-width: 1160px;
+        margin: 60px auto 0;
+        align-items: center;
+        gap: 73px;
+
+        .leftSide {
+            width: 522px;
+        
+            .nameP {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 18px;
+                letter-spacing: 30%;
+                color: $secondaryTitleColorShadow;
+            }
+
+            h4 {
+                font-weight: 400;
+                font-size: 38px;
+                line-height: 50px;
+                letter-spacing: 0%;
+                color: $primaryTitleColor;
+                margin: 6px 0 20px;             
+                width: 511px;
+            }
+
+            p {
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: $secondaryTitleColor;
+                letter-spacing: 0%;
+            }
+
+            .viewButtonRight {
+                margin-top: 45px;
+                a {
+                    margin-right: 8px;
+                    text-decoration:none ;
+                    @include gradientEffect();
+                }
+                
+                i {
+                    font-size: 20px;
+                    color: $selectColor;
+                }
+            }
+        }
+    }
 }
